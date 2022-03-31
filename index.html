@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./vendor/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
+    <title>MARIELA</title>
+</head>
+<body>
+    <div class="for_page">
+        <div class="page">
+            <!-- Togle & Side Bar -->
+            <div class="sidebar">
+                <ul class="menu">
+                    <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                    <li><a href="#about_me" onclick="toggleMenu();">About me</a></li>
+                    <li><a href="#products" onclick="toggleMenu();">Products</a></li>
+                    <li><a href="#our_team" onclick="toggleMenu();">Our team</a></li>
+                    <li><a href="#contact_me" onclick="toggleMenu();">Contact me</a></li>
+                    <a href="#" class="header_icon" onclick="toggleMenu();">
+                        <img class="imgsvg" src="./img/header/header_icon.svg" alt="icon">
+                    </a>
+                    <!-- <a href="#" class="btn">Go to Search</a> -->
+                    <!-- <div class="sidebar_icon">
+                        <div class="user">
+                            <a href="#"><i class="fa-solid fa-user-large"></i></a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </div>
+                    </div> -->
+                </ul>
+            </div>
+            <!-- Side Bar -->
+            <!-- HEADER -->
+            <header class="header" id="home">
+                <div class="container header_container">
+                    <div class="header_logo">
+                        <a href="#"><img src="./img/header/logo.png" alt="logo boosted_USA"></a>
+                    </div>
+                    <div class="header_nav">
+                        <nav class="nav_menu">
+                            <ul class="sub_menu">
+                                <li class="item_menu">
+                                    <a class="link_item_menu" href="#home">Home</a>
+                                </li>
+                                <li class="item_menu">
+                                    <a class="link_item_menu" href="#about_me">About me</a>
+                                </li>
+                                <li class="item_menu">
+                                    <a class="link_item_menu" href="#products">Products</a>
+                                </li>
+                                <li class="item_menu">
+                                    <a class="link_item_menu" href="#contact_me">Contact me</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="#" class="header_icon">
+                            <div><img class="img-svg" src="./img/header/header_icon.svg" alt="icon"></div>
+                        </a>
+                    </div>
+                    <div class="toggle" onclick="toggleMenu();"></div>
+                </div>
+            </header>
+            <!-- MAIN -->
+            <main class="main">
+                <!-- Welcome -->
+                <section class="welcome">
+                    <div class="container welcome_container">
+                        <div class="welcome_img_wrapper">
+                            <img src="./img/main/welcome/welocme_img.png" alt="image">
+                            <div class="welcome_img_child">
+                                <div class="welcome_txt_wrapper">
+                                    <p>new</p>
+                                    <h2>Spring Cushion Collection 2022</h2>
+                                    <div><a href="#">buy now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="welocme_blocks_wrapper">
+                            <div class="welcome_block"></div>
+                            <div class="welcome_block"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About_me -->
+                <section class="about_me" id="about_me">
+                    <div class="container about_me_container">
+                        <p>I'm a cushion designer</p>
+                        <h3 class="title">Based in San Francisco, California I design trendy and fashion Cushions, since I have memory I always had a tendency to 
+                        design and illustration.</h3>
+                        <a class="about_me_link" href="#">Learn More</a>
+                        <div class="items_wrapper">
+                            <div class="item">
+                                <img src="./img/main/about_me/img_1.png" alt="image">
+                                <h4 class="item_title">About me</h4>
+                                <a href="#" class="item_link">Learn more</a>
+                            </div>
+                            <div class="item">
+                                <img src="./img/main/about_me/img_2.png" alt="image">
+                                <h4 class="item_title">My products</h4>
+                                <a href="#" class="item_link">Learn more</a>
+                            </div>
+                            <div class="item">
+                                <img src="./img/main/about_me/img_3.png" alt="image">
+                                <h4 class="item_title">Contact me</h4>
+                                <a href="#" class="item_link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About_me_2 -->
+                <section class="about_me_2">
+                    <div class="container about_me_2_container">
+                        <div class="about_me_2_img_wrapper">
+                            <img src="./img/main/about_me/img_4.png" alt="image">
+                            <div class="about_me_2_txt_wrapper">
+                                <p>About me</p>
+                                <h3>I'm a trendy Cushion Designer</h3>
+                                <div><a href="#">learn more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Products -->
+                <section class="products" id="products">
+                    <div class="container products_container">
+                        <div class="item">
+                            <div class="item_txt_wrapper">
+                                <h5>beginnings</h5>
+                                <p>Credibly innovate granular internal or organic sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis 
+                                impactful experiences.</p>
+                                <p>Dramatically synthesize integrated schemas. with optimal networks.</p>
+                            </div>
+                            <div class="item_img_wrapper">
+                                <img src="./img/main/products/product_1.png" alt="product">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_img_wrapper">
+                                <img src="./img/main/products/product_2.png" alt="product">
+                            </div>
+                            <div class="item_txt_wrapper">
+                                <h5>carrer</h5>
+                                <p>Collaboratively administrate turnkey channels whereas virtual e-tailers.</p>
+                                <p>Objectively seize scalable metrics whereas proactive e-services seamlessly empower fully researched growth 
+                                strategies.</p>
+                                <p>And interoperable internal or “organic” sources.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_txt_wrapper">
+                                <h5>products</h5>
+                                <p>Seamlessly empower fully researched growth strategies and interoperable internal or “organic” 
+                                sources.</p>
+                                <p>Credibly innovate granular internal or “organic” sources whereas high standards in web-readiness.</p>
+                                <p>Energistically scale future-proof core competence</p>
+                            </div>
+                            <div class="item_img_wrapper">
+                                <img src="./img/main/products/product_3.png" alt="product">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Collection -->
+                <section class="collection">
+                    <div class="container collection_container">
+                        <div class="about_me_2_img_wrapper">
+                            <img src="./img/main/collection/product.png" alt="image">
+                            <div class="about_me_2_txt_wrapper">
+                                <p>New</p>
+                                <h3>Spring Cushion Collection 2022</h3>
+                                <div><a href="#">buy now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Shop -->
+                <section class="shop">
+                    <div class="container shop_container">
+                        <div class="item">
+                            <img src="./img/main/shop/img_1.png" alt="image">
+                            <p>Plated Cushion</p>
+                            <h5>$ 19.99 USD</h5>
+                        </div>
+                        <div class="item">
+                            <img src="./img/main/shop/img_2.png" alt="image">
+                            <p>Silver Cushion</p>
+                            <h5>$ 19.99 USD</h5>
+                        </div>
+                        <div class="item">
+                            <img src="./img/main/shop/img_3.png" alt="image">
+                            <p>Deep Blue Cushion</p>
+                            <h5>$ 19.99 USD</h5>
+                        </div>
+                        <div class="item">
+                            <img src="./img/main/shop/img_4.png" alt="image">
+                            <p>Pink Cushion</p>
+                            <h5>$ 19.99 USD</h5>
+                        </div>
+                        <div class="item">
+                            <img src="./img/main/shop/img_5.png" alt="image">
+                            <p>Black Cushion</p>
+                            <h5>$ 19.99 USD</h5>
+                        </div>
+                        <div class="item">
+                            <img src="./img/main/shop/img_6.png" alt="image">
+                            <p>Green Cushion</p>
+                            <h5>$ 19.99 USD</h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- Contact_me -->
+                <section class="contact_me" id="contact_me">
+                    <div class="container contact_me_container">
+                        <div class="item_adress">
+                            <p>email</p>
+                            <a href="mailto:support@website.com">support@website.com</a>
+                            <p>phone</p>
+                            <a href="tel:800123456">800-123-4561</a>
+                            <p>address</p>
+                            <a href="https://www.google.com/maps/place/23+Evergreen+Ave,+Daly+City,+CA+94014,+США/@37.7073066,-122.458651,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7c236abe322b:0xf53466c1815c3d03!8m2!3d37.7073066!4d-122.4564623">
+                            23 Evergreen Street, <br> San Francisco, California <br> USA</a>
+                        </div>
+                        <div class="item_contact">
+                            <h4 class="contact_title">address</h4>
+                            <p class="contact_text">Drop us your message and I'll get back to you as soon as possible.</p>
+                            <form class="item_contact_wrapper">
+                                <input class="input" type="text" name="" placeholder="your name">
+                                <input class="input" type="text" name="" placeholder="your company">
+                                <input class="input" type="number" name="" placeholder="your phone">
+                                <input class="input" type="email" name="" placeholder="your email">
+                                <textarea class="textarea" name="" placeholder="your message"></textarea>
+                                <button class="button">Lets talk</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <!-- Newsletter -->
+                <section class="newsletter">
+                    <div class="item">
+                        <h3>NEWSLETTER</h3>
+                        <p>Get promotions & updates!</p>
+                        <form>
+                            <input class="input" type="text" name="" placeholder="your name">
+                            <input class="input" type="email" name="" placeholder="your email">
+                            <button class="button">Lets talk</button>
+                        </form>
+                    </div>
+                </section>
+                <!-- Services -->
+                <section class="services">
+                    <div class="container services_container">
+                        <div class="item_wrapper">
+                            <div class="item">
+                                <div>
+                                    <img src="./img/main/services/product_1.svg" alt="product">
+                                </div>
+                                <h5>Safe shopping</h5>
+                                <p>Buy with confidence</p>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <img src="./img/main/services/product_2.svg" alt="product">
+                                </div>
+                                <h5>Fast shipping</h5>
+                                <p>Get your product fast</p>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <img src="./img/main/services/product_3.svg" alt="product">
+                                </div>
+                                <h5>Satisfaction guarantee</h5>
+                                <p>Or get your money back</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="container footer_container">
+                    <div class="footer_link">
+                        <div class="footer_nav">
+                            <div class="footer_logo">
+                                <a href="#"><img src="./img/footer/logo.png" alt="logo boosted_USA"></a>
+                            </div>
+                            <nav class="nav_menu">
+                                <ul class="sub_menu">
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#home">Home</a>
+                                    </li>
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#about_me">About me</a>
+                                    </li>
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#products">Products</a>
+                                    </li>
+                                    <li class="item_menu">
+                                        <a class="link_item_menu" href="#contact_me">Contact me</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <a class="footer_social" href="#">
+                            <img src="./img/footer/facebook.svg" alt="facebook">
+                        </a>
+                    </div>
+                    <div class="footer_txt">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Version 1.2</a></li>
+                                <div></div>
+                                <li><a href="#">Image</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Licensing</a></li>
+                                <div></div>
+                                <li><a href="#">Made By</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Pablo Ramos</a></li>
+                                <div></div>
+                                <li><a href="#">Visit My</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Templates</a></li>
+                                <div></div>
+                                <li><a href="#">Powered By</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Webflow</a></li>
+                            </ul>
+                        </nav>
+                        <a href="#contact_me" class="footer_txt_link">
+                            <img src="./img/footer/Vector.svg" alt="vector">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- ===Page=== -->
+    </div>
+<!-- Script JS -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/style.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+
+
+
